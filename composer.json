@@ -1,0 +1,29 @@
+{
+  "name": "eeelfedali/code-wp",
+  "version": "1.0.0",
+  "description": "Code to make the templating in wordpress eazy for piman group wordpress sites",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "CodeWp\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Abdessamad el fedali",
+      "email": "a.elfedali@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "slim/slim": "4.*",
+    "nyholm/psr7": "^1.8",
+    "nyholm/psr7-server": "^1.1",
+    "zeuxisoo/slim-whoops": "^0.7.3",
+    "slim/php-view": "^3.4",
+    "symfony/yaml": "^7.1"
+  },
+  "require-dev": {
+    "symfony/var-dumper": "^7.1"
+  }
+}

@@ -1,0 +1,30 @@
+sections:
+  - tag: section
+    class: container
+    id: form-id
+    content:
+      - tag: form
+        content:
+          - tag: div
+            class: form-group
+            content:
+              - tag: label
+                class:
+                for: input-email
+
+              - tag: input
+                class: form-control
+
+          - tag: div
+            class: form-group
+            content:
+              - tag: label
+                class:
+                for: input-password
+
+              - tag: input
+                class: form-control
+          - tag: button
+            type: submit
+            class: btn btn-primary
+            content: Send 
